@@ -5,9 +5,11 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    display: flex;
+    display: flexbox;
     align-items: center;
     min-height: 100vh;
+    justify-content: center;
+    flex-direction: column;
 }
 
 header{
@@ -25,7 +27,7 @@ h1{
     justify-content: center;
     gap: 10px;
     grid-template-columns: repeat(3, 100px);
-    grid-template-rows: repeat(3,100px);
+    grid-template-rows: repeat(3, 100px);
     margin-top: 20px;
 }
 
