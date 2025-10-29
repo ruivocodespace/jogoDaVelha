@@ -189,6 +189,7 @@ botaoEscolher.addEventListener('click', escolherSimbolo);
 //iniciar jogo
 //----
 renderizarTabuleiro();
+escolherSimbolo();  
 
 
 
