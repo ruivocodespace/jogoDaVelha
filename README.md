@@ -97,25 +97,11 @@ LJ04:	O jogo termina quando há vitória ou todas as posições ocupadas.
 
 LJ05:	Após o término, novas jogadas são bloqueadas até reiniciar.
 
-🧭 7. Requisitos futuros (para próximas versões)
-
-(Não obrigatórios agora, mas fáceis de adicionar depois.)
-
-RF11: Escolha inicial de símbolo (X ou O).
-
-RF12: Placar persistente (número de vitórias).
-
-RF13: Modo solo (contra IA simples).
-
-RF14: Animações de vitória (linha destacada).
-
-RF15: Tema claro/escuro.
-
-🧰 8. Requisitos técnicos
+🧰 7. Requisitos técnicos
 
 Item	Descrição
 
-Linguagens	HTML5, CSS3, JavaScript ES6
+Linguagens	HTML5, CSS3, JavaScript
 
 Ambiente	Navegador web moderno (sem servidor backend)
 
@@ -127,7 +113,7 @@ Deploy	GitHub Pages / Netlify / Vercel
 
 Estrutura	/index.html, /css/style.css, /js/app.js, /assets/*
 
-🧪 9. Critérios de aceitação (testes básicos)
+🧪 8. Critérios de aceitação (testes básicos)
 
 Teste	Condição	Resultado esperado
 
@@ -141,7 +127,7 @@ Tabuleiro cheio sem vitória	Mensagem “Empate!” aparece	✅ Empate detectado
 
 Botão reiniciar clicado	Tabuleiro limpa e reinicia jogo	✅ Reinício funcional
 
-📦 10. Entregável final
+📦 9. Entregável final
 
 Um site estático que:
 
